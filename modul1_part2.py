@@ -36,9 +36,9 @@ if y2 > 8 and y2 < 1:
 	print("Координата h2_Y введена некорректно:" + h2_Y)
 	exit()
 
-if x1 == x2 and y1 != y2:
+if x1 == x2:
 	print("YES")
-elif y1 == y2 and x1 != x2:
+elif y1 == y2:
 	print("YES")
 else:
 	print("NO")
